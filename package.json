@@ -1,0 +1,19 @@
+{
+  "name": "rollup-momizee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "serve": "live-server ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "live-server": "^1.2.1",
+    "memoizee": "^0.4.15",
+    "rollup": "^2.55.1",
+    "rollup-plugin-commonjs": "^10.1.0"
+  }
+}
